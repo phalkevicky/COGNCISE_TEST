@@ -1,0 +1,196 @@
+.dashboard_cardwrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dash_card {
+    width: 220px;
+    height: 134px;
+    border-radius: 8px;
+    border: 1px solid #DFE0EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dash_cardname {
+    font-size: 19px;
+    color: #9FA2B4;
+    font-weight: 700;
+
+}
+
+.dash_count {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+.isdashActive {
+
+    border: 1px solid #3751FF;
+    color: #3751FF;
+}
+
+.isdashActivetext {
+    color: #3751FF;
+}
+
+.dash_grapwrap {
+
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+
+.dash_taskwrap,
+.dask_head,
+.dash_check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dash_taskwrap{
+    margin-bottom: 20px;
+}
+
+.dash_sub {
+
+    width: 45%;
+    height: auto;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.dash_list {
+
+    list-style: none;
+    padding: 0;
+}
+
+.dash_list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.dash_list li:last-child {
+    border: none;
+}
+
+.dask_head p {
+    font-weight: 700;
+    font-size: 19px;
+    color: #252733;
+}
+
+.dask_head span {
+    font-weight: 600;
+    font-size: 14px;
+    color: #3751FF;
+    cursor: pointer;
+}
+
+.dash_grp {
+    font-weight: 400;
+    font-size: 12px;
+    color: #9FA2B4;
+}
+
+.dash_list p {
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.dash_list span {
+    font-weight: 600;
+    font-size: 14px;
+    color: #9FA2B4;
+}
+
+.dash_check input {
+
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dash_urgent {
+    background: #FEC400;
+    border-radius: 8px;
+    color: white !important;
+    padding: 5px 10px;
+}
+
+.dash_new {
+    background: #29CC97;
+    border-radius: 8px;
+    color: white !important;
+    padding: 5px 10px;
+}
+
+.dash_default {
+    background: #F0F1F7;
+    border-radius: 8px;
+    color: #9FA2B4 !important;
+    padding: 5px 10px;
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: gray;
+}
+
+.dash_grapwrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dash_graprecord{
+
+    width: 35%;
+}
+
+.dash_grapdata{
+
+    border: 1px solid #DFE0EB;
+    padding: 10px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.dash_grapdata .dash_cardname {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dash_grapdata .dash_count {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.canvasjs-chart-credit{
+    display: none !important;
+}
